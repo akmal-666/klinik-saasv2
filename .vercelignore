@@ -1,0 +1,12 @@
+# Backend (deploy separately to Railway)
+apps/backend/
+
+# Dev files
+.env.local
+.env
+node_modules
+**/node_modules
+**/.turbo
+**/dist
+**/coverage
+*.log

@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+.pnp
+
+# Build outputs
+.next
+dist
+build
+.turbo
+
+# Environment — DO NOT COMMIT
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+coverage
+
+# Misc
+*.tsbuildinfo
